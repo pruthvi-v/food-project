@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: 'ABeeZee', sans-serif;
+    height: 100%;
+    
+    
+}
+header {
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    text-align: center;
+    z-index: 999;
+    justify-content: space-between;
+}
+.logo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.logo_image {
+    height: 140px;
+}
+.details {
+    margin-top: 2.5rem;
+}
+.unordered_list {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    text-align: right;
+    
+}
+.heading {
+    display: inline;
+    margin-left: 3px;
+    padding: 10px;
+    border: 2px solid beige;
+    background-image: linear-gradient(#076585, #fff);
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.salads, .cake {
+   width: 400px;
+   height: 400px; 
+}
+
+.name {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+}
+.receipe_type {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+    font-family: cursive;
+    
+}
+.description, .image {
+    display: inline-block;
+    background-image: linear-gradient(#076585, #fff);
+}
+.description {
+    margin-left: 20px;
+    width: 1050px;
+    background-color: white;
+    height: 400px;
+    color: black;
+}
+.instructions li{
+    margin-left: 25px;
+    padding: 10px;
+}
+.description h1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.description p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.container1 {
+    margin-bottom: 15px;
+}
+.receipe_type {
+    margin: 10px;
+}
+.video {
+    background-image: linear-gradient(to right, #bbd2c5, #536976);
+    padding: 10px;
+    margin-left: 27rem;
+    margin-top: 16px;
+}
+.receipe_type2 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.inst {
+    margin-bottom: 30px;
+}
+.receipe3{
+  margin-bottom: 40px;
+  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.receipe_type {
+    color: black;
+}
+
+footer {
+    background-image: linear-gradient(to right, #bbd2c5, #536976);
+    flex: 0 0 40px;
+    margin-top: 70px;
+    height: 150px;
+    width: 100%;
+   
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.social {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.social i {
+    margin: 0 10px;
+
+}
+.social a{
+    text-decoration: none;
+    color: white;
+
+}
+.social a i{
+    font-size: 1.1rem;
+    transition: white .4s ease;
+}
+.social a:hover {
+    color: aqua;
+}
+@media (max-width: 600px){
+     h1 {
+         font-size: 14px;
+     }
+     .container1 {
+         width: 100%;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         align-items: center;
+         box-sizing: border-box;
+     }
+     .description {
+         width: 500px;
+         margin-left: 0;
+         height: 500px;
+         
+
+     }
+     span {
+         display: inline-block;
+         text-align: left;
+     }
+     .salads {
+         width: 100%;
+         
+     }
+}
+
